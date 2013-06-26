@@ -23,7 +23,7 @@ role :app, "192.241.131.188"                          # This may be the same as 
 # these http://github.com/rails/irs_process_scripts
 
 # If you are using Passenger mod_rails uncomment this:
-namespace :deploy do
+namespace :deploy dostue
   task :start do ; end
   task :stop do ; end
   task :restart, :roles => :app, :except => { :no_release => true } do
